@@ -56,8 +56,8 @@
 # 30000
 # 20000
 
-val = (input('물품 가격을 입력하세요: '))
-a = sorted(val.split(';'))
-a.reverse()
-for i in a:
-    print(i)
+# val = (input('물품 가격을 입력하세요: '))
+# a = sorted(val.split(';'))
+# a.reverse()
+# for i in a:
+#     print(i)
