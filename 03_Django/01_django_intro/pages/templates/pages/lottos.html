@@ -1,0 +1,12 @@
+{% for number in lottos %}
+    <p>{{ number }}</p>
+{% endfor %}
+<hr>
+
+<h2>로또 번호 비교</h2>
+
+{% if real_lottos == lottos %}
+    <P>당첨!</P>
+{% else %}    
+    <p>다음기회에!</p>
+{% endif %}
